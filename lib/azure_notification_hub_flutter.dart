@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 typedef Future<dynamic> MessageHandler(Map<String, dynamic> message);
 typedef Future<dynamic> TokenHandler(String token);
 
-class AzureNotificationhubsFlutter {
+class AzureNotificationHubFlutter {
   static const MethodChannel _channel =
       const MethodChannel('azure_notification_hub_flutter');
 

@@ -61,7 +61,7 @@ From your Dart code, you need to import the plugin and instantiate it:
 ```
 import 'package:azure_notification_hub_flutter/azure_notification_hub_flutter.dart';
 
-final AzureNotificationhubsFlutter _anh = AzureNotificationhubsFlutter();
+final AzureNotificationHubFlutter _anh = AzureNotificationHubFlutter();
 ```
 
 Requesting permissions on iOS is managed by the plugin and the request will bring up a permissions dialog for the user to confirm on iOS on app launch.

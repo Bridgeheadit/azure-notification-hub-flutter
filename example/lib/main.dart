@@ -12,7 +12,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  late AzureNotificationhubsFlutter _anh;
+  late AzureNotificationHubFlutter _anh;
 
   @override
   void initState() {

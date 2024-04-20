@@ -393,7 +393,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bridgeheadit.azureNotificationhubsFlutterExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgeheadit.azureNotificationHubFlutterExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -525,7 +525,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bridgeheadit.azureNotificationhubsFlutterExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgeheadit.azureNotificationHubFlutterExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -550,7 +550,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bridgeheadit.azureNotificationhubsFlutterExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgeheadit.azureNotificationHubFlutterExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
