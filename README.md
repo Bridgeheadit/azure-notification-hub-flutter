@@ -1,6 +1,6 @@
 # Microsoft Azure Notification Hubs wrapper for Flutter
 
-[![Pub Version](https://img.shields.io/pub/v/azure_notification_hub_flutter?label=swiftoffice%40pub)](https://pub.dev/packages/azure_notification_hub_flutter)
+[![Pub Version](https://img.shields.io/pub/v/azure_notification_hub_flutter?label=bridgeheadit%40pub)](https://pub.dev/packages/azure_notification_hub_flutter)
 
 This is a **work in progress**. View todos in our [issues page](https://github.com/bridgeheadit/azure-notification-hub-flutter/issues/1) for more information. Please submit PR!
 
@@ -137,3 +137,6 @@ To get the source code of our wrapper via **git** just type:
 ## Contributing
 
 If you're unsure about anything, just ask -- or submit the issue or pull request anyway. The worst that can happen is you'll be politely asked to change something. We love all friendly contributions.
+
+## Based on
+This is based on 
