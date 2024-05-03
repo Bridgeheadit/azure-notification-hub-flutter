@@ -29,6 +29,11 @@ class AzureNotificationHubFlutter {
     _channel.invokeMethod<void>('configure');
   }
 
+  //add a function that calls the native AddTag method
+  Future<void> addTag(String tag) async {
+    await _channel.invokeMethod<void>('addTag', tag);
+  }
+
   Future<dynamic> _handleMethod(MethodCall call) async {
     switch (call.method) {
       case "onToken":
