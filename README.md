@@ -52,6 +52,13 @@ To integrate your plugin into the iOS part of your app, follow these steps:
 ```
 NotificationHubName
 NotificationHubConnectionString
+
+<key>NotificationHubConnectionString</key>
+<string>
+  Endpoint=sb://example.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=EXAMPLE=</string>
+<key>NotificationHubName</key>
+<string>EXAMPLE-HUB</string>
+
 ```
 
 #### Dart/Flutter Integration
@@ -139,4 +146,4 @@ To get the source code of our wrapper via **git** just type:
 If you're unsure about anything, just ask -- or submit the issue or pull request anyway. The worst that can happen is you'll be politely asked to change something. We love all friendly contributions.
 
 ## Based on
-This is based on 
+This is based on https://github.com/rswiftoffice/azure-notificationhubs-flutter.git which is no longer available
