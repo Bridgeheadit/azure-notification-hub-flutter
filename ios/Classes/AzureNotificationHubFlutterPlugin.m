@@ -37,6 +37,28 @@
   }
 }
 
+//call add tag
+
+- (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
+  if ([@"addTag" isEqualToString:call.method]) {
+    NSString *tag = call.arguments;
+    NSString *deviceTag = [@"device:" stringByAppendingString:tag];
+    NSArray *tags = @[deviceTag];
+    SBNotificationHub* hub = [self getNotificationHub];
+    [hub registerNativeWithDeviceToken:deviceToken tags:tags completion:^(NSError* error) {
+      if (error != nil) {
+          NSLog(@"Error registering for notifications: %@", error);
+      } else {
+        [self->_channel invokeMethod:@"onToken" arguments:deviceTag];
+      }
+    }];
+    result(nil);
+  } else {
+    result(FlutterMethodNotImplemented);
+  }
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   [[UNUserNotificationCenter currentNotificationCenter] setDelegate:self];
   if (launchOptions != nil) {
